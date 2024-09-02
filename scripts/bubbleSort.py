@@ -2,18 +2,20 @@ from random import randint
 
 listToSort = []
 
-for i in range(0, 100):
+for i in range(0, 1000):
     listToSort.append(randint(-100, 100))
 
 maxIndex = len(listToSort)
-print(f"maxIndex = {maxIndex}")
 
-print("--- start of sorting ---\n")
+print(f"\nunsorted list: {listToSort}")
+
+print("\n--- start of sorting ---\n")
 
 y = 0
 
 for x in range(1, maxIndex - 1):
     print(y)
+    
     for i in range(1, maxIndex - y):
         itemCurr = listToSort[i - 1]
         itemNxt = listToSort[i]
