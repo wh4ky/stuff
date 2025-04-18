@@ -1,5 +1,4 @@
-# PythonScripts
+# stuff
 
-## about
-
-A collection of almost all scripts I had to make for school, for my personal use, or sometimes even for fun.  
+Words like 'stuff,' 'random things,' and 'useless' all describe the projects in this repository, more or less.  
+This repository contains random projects I created out of boredom or a desire to learn something new.  
